@@ -26,7 +26,7 @@ function modelLoaded(){
     //sounds like a star wars reference but it isnt, i made that up.
 }
 
-function gotPoses(){
+function gotPoses(results){
     if(results.length > 0){
         console.log(results);
         console.log("nose x =" + results[0].pose.nose.x);
